@@ -5,13 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/banquet-system-/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pearl Hall Management</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <script type="module" crossorigin src="/banquet-system-/assets/index-DvOvmdMA.js"></script>
     <link rel="stylesheet" crossorigin href="/banquet-system-/assets/index-8U8-gvqo.css">
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Redirect to hash route if none exists -->
+    <script>
+      if (!window.location.hash) {
+        window.location.replace(window.location + '#/');
+      }
+    </script>
   </body>
 </html>
